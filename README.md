@@ -2,6 +2,11 @@
 
 This project is a web scraping script that extracts information about mobile phones from Flipkart. It retrieves details such as product name, price, offers, reviews, and additional specifications like RAM, ROM, display, rear camera, and battery. The extracted data is stored in a CSV file.
 
+```bash
+from py_flip_scrap import mobdata
+mobdata(upper_range= max_amount_value)
+```
+
 ## Requirements
 
 - Python 3.x
